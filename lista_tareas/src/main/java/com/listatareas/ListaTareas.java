@@ -36,5 +36,13 @@ public class ListaTareas {
         } else {
             System.out.println("❌ La tarea no existe en la lista.");
         }
+
+        //listo
+        System.out.println("\n📋 Lista actualizada de tareas:");
+        for (String tarea : tareas) {
+            System.out.println("- " + tarea);
+        }
+
+        scanner.close();
     }
 }
