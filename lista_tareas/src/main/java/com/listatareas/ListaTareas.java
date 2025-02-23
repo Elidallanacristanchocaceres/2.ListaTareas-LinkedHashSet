@@ -22,10 +22,19 @@ public class ListaTareas {
             }
         }
 
-         // 3. Mostrar la lista de tareas en el orden ingresado
+         // 3.mostrar la lista
          System.out.println("\n📋 Lista de tareas:");
          for (String tarea : tareas) {
              System.out.println("- " + tarea);
          }
+
+         // 4.eliminar
+        System.out.print("\nIngrese el nombre de la tarea que desea eliminar: ");
+        String tareaEliminar = scanner.nextLine();
+        if (tareas.remove(tareaEliminar)) {
+            System.out.println("✅ Tarea eliminada con éxito.");
+        } else {
+            System.out.println("❌ La tarea no existe en la lista.");
+        }
     }
 }
