@@ -9,7 +9,7 @@ public class ListaTareas {
         Scanner scanner = new Scanner(System.in);
         Set<String> tareas = new LinkedHashSet<>();
 
-        // 1. Pedir al usuario que ingrese tareas
+        // 1.ingresar tareas
         System.out.println("Ingrese las tareas (escriba 'fin' para terminar):");
         while (true) {
             System.out.print("Tarea: ");
@@ -21,5 +21,11 @@ public class ListaTareas {
                 System.out.println("⚠ La tarea '" + tarea + "' ya está en la lista.");
             }
         }
+
+         // 3. Mostrar la lista de tareas en el orden ingresado
+         System.out.println("\n📋 Lista de tareas:");
+         for (String tarea : tareas) {
+             System.out.println("- " + tarea);
+         }
     }
 }
