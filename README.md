@@ -59,3 +59,10 @@ Permite eliminar una tarea de la lista.
 - Se deben ingresar tareas sin espacios adicionales.
 
 - Para finalizar la entrada de tareas, se debe escribir fin.
+____
+### 📬 Contacto
+- 📧 Correo electrónico: cristanchodayana062017@gmail.com
+
+- 💼 LinkedIn: [Elidallana Cristancho Caceres](https://www.linkedin.com/in/elidallanacristancho/)
+
+¡Gracias por ser parte de esta aventura! 🚀✨
